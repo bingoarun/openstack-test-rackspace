@@ -22,5 +22,6 @@ cf= pyrax.cloudservers
 
 print cf.list_flavors()
 print cf.list_base_images()
+print cf.list_images()
 
 print "completed"
